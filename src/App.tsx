@@ -104,7 +104,7 @@ const Timeline: React.FC = () => (
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen font-sans text-gray-900 relative">
+    <div className="min-h-screenmt-4  font-sans text-gray-900 relative">
       <GradientBG />
       {/* Sticky Nav */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white/60 backdrop-blur-md shadow flex justify-center py-3">
@@ -112,7 +112,7 @@ const App: React.FC = () => {
           {navLinks.map(link => (
             <li key={link.name}>
               <a href={link.href} className="hover:text-blue-600 transition-colors duration-200 px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
-                {link.name}
+                {link.name + "KK"}
               </a>
             </li>
           ))}
