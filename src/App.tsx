@@ -112,7 +112,7 @@ const App: React.FC = () => {
           {navLinks.map(link => (
             <li key={link.name}>
               <a href={link.href} className="hover:text-blue-600 transition-colors duration-200 px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
-                {link.name + "KK"}
+                {link.name}
               </a>
             </li>
           ))}
